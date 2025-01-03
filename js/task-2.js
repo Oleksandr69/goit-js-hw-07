@@ -31,5 +31,5 @@ const listImages = images
       `<li class="item"> <div class="thumb"> <img src="${element.url}" alt="${element.alt}" class="item-img"/> </div> </li>`
   )
   .join(' ');
-console.log(listImages);
+// console.log(listImages);
 gallery.insertAdjacentHTML('beforeend', listImages);
