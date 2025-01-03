@@ -1,0 +1,31 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+.gallery {
+  padding: 100px 156px;
+  max-width: 1440px;
+  background: #fff;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 48px 24px;
+}
+
+.thumb {
+  width: 360px;
+  height: 300px;
+}
+
+.item-img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
